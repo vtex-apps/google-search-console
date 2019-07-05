@@ -1,0 +1,36 @@
+{
+  "vendor": "vtex",
+  "name": "google-search-console",
+  "version": "1.0.0",
+  "title": "Google Search Console",
+  "description": "Google Search Console",
+  "builders": {
+    "pixel": "0.x"
+  },
+  "mustUpdateAt": "2019-10-01",
+  "billingOptions": {
+    "termsURL": "",
+    "support": {
+      "url": "https://support.vtex.com/hc/requests"
+    },
+    "free": true
+  },
+  "dependencies": {
+    "vtex.pixel-interfaces": "1.x"
+  },
+  "settingsSchema": {
+    "title": "Google Search Console",
+    "description": "Enter the content provide by Google Search Console",
+    "type": "object",
+    "properties": {
+      "content": {
+        "title": "Content",
+        "type": "string"
+      }
+    }
+  },
+  "scripts": {
+    "postreleasy": "vtex publish --verbose"
+  },
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
+}
