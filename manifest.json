@@ -5,7 +5,8 @@
   "title": "Google Search Console",
   "description": "Google Search Console",
   "builders": {
-    "pixel": "0.x"
+    "pixel": "0.x",
+    "docs": "0.x"
   },
   "mustUpdateAt": "2019-10-01",
   "billingOptions": {
