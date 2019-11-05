@@ -1,7 +1,7 @@
 {
   "vendor": "vtex",
   "name": "google-search-console",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "title": "Google Search Console",
   "description": "Google Search Console",
   "builders": {
