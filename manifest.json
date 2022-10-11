@@ -25,6 +25,7 @@
     "title": "Google Search Console",
     "description": "Enter the content provide by Google Search Console",
     "type": "object",
+    "bindingBounded": true,
     "properties": {
       "content": {
         "title": "Content",
